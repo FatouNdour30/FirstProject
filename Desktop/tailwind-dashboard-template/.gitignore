@@ -1,5 +1,8 @@
-node_modules
+# Ignore les fichiers générés par npm/yarn
+node_modules/
+
+# Ignore les fichiers .DS_Store spécifiques à macOS
 .DS_Store
-dist
-dist-ssr
+
+# Ignore les fichiers .local
 *.local

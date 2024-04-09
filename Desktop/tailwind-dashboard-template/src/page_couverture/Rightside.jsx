@@ -14,10 +14,10 @@ const RightSide = () => {
 
   return (
     <div className="container">
-      <h1 className='text-center text-primary border-bottom border-primary pb-3'>Docteur Js</h1>
+      <h1 className='text-center text-primary fs-1 border-bottom border-primary pb-3 mt-md-3'>Docteur Js</h1>
       <div className='text'>
-        <h2 className='text-center'>Welcome</h2>
-        <h4 className='text-center'>Connexion ou Création de compte en 1 minute</h4>
+        <h2 className='text-center mt-md-3 mb-3'>Welcome</h2>
+        <h4 className='text-center mb-3'>Connexion ou Création de compte en 1 minute</h4>
         <Form>
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>E-Mail</Form.Label>
@@ -53,13 +53,13 @@ const RightSide = () => {
               accept=".png,.jpg,.jpeg,.gif,.txt,.js"
               required
             />
-            <Form.Control.Feedback type="invalid">Please upload a screenshot or code snippet.</Form.Control.Feedback>
+            <Form.Control.Feedback type="invalid" className='mb-3'>Please upload a screenshot or code snippet.</Form.Control.Feedback>
             <Form.Text className="text-muted">
               Upload a screenshot or a file containing a code snippet.
             </Form.Text>
           </Form.Group>
 
-          <div className="d-flex justify-content-center">
+          <div className="d-flex justify-content-center mb-3">
             {/* Appeler handleContinue lors du clic sur le bouton */}
             <Button variant="outline-warning" type="button" onClick={handleContinue}>
               Continuer

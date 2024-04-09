@@ -30,7 +30,7 @@ function App() {
 function HomePage() {
   return (
     <>
-      <Container>
+      <Container fluid>
         <Row>
           <Col>
             <LeftSide />
